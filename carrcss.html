@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<style>
+    p {
+       
+  font: condensed 200% sans-serif;
+  color: rgb(255, 255, 255);
+}
+body {
+    text-align: center;
+    background: rgba(0, 128, 122, 0.3)
+}
+form {
+    display: inline-block;
+}
+fieldset
+{
+  border-radius: px;
+  background: url(https://i.pinimg.com/originals/f7/bc/65/f7bc65bdf5e33c714466c9cadc365ede.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180%;
+  color:whtite;}
+
+ 
+legend
+{font: condensed 200% sans-serif;
+  margin-bottom:0px;
+  margin-left:16px;color: rgb(255, 255, 255);
+}
+
+</style>
+<html>
+    <head>
+        <title>Registro de autos sin framework</title>
+        <meta charset="utf-8" />
+    </head>
+    <form action="carr1.php" method="post" target = "_blank">
+        <fieldset>
+
+            <legend>Registro de autos</legend>
+            <p>Tipos de combustible</p>
+            <p>Combustibles de tipo gasolina
+            <select name="Combustibles de tipo gasolina">
+                <option>E5</option>
+                <option>E10</option>
+                <option>E85</option>
+            </select> </p>
+
+            <p>Combustibles de tipo gasóleo
+            <select name="Combustibles de tipo gasóleo">
+                <option>B7</option>
+                <option>B10</option>
+                <option>XTL</option>
+            </select> </p>
+            
+            <p>Tipo de coche
+            <select name="Tipo de coche">
+                <option>Todo terreno</option>
+                <option>Deportivo</option>
+                <option>Familiar</option>
+            </select> </p>
+
+            <p>Estado del auto
+            <select name="Estado del auto">
+                <option>Nuevo</option>
+                <option>Usado</option>
+            </select> </p>
+
+            <p>Marca
+            <select name="Marca">
+                <option>Audi</option>
+                <option>Mercedes-Benz</option>
+                <option>BMW</option>
+            </select> </p>
+
+            <p>Usuario
+            <select name="Usuario">
+                <option>Usuario 1</option>
+                <option>Usuario 2</option>
+                <option>Usuario 3</option>
+            </select> </p>
+
+                <p><label for="Modelo del auto">Modelo del auto</label>
+                <input type="text" name="Modelo del auto" id="Modelo del auto" maxlength="60"></p>
+
+                <p><label for="Año">Año</label>
+                <input type="text" name="Año" id="Año" maxlength="4"></p>
+
+                <p><label for="Detalles del vehiculo">Detalles del vehiculo</label>
+                <input type="text" name="Detalles del vehiculo" id="Detalles del vehiculo"></p>
+
+                <p><label for="Caja">Caja</label>
+                <input type="number" name="Caja" id="Caja"></p>
+
+                <p><label for="Motor">Motor</label>
+                <input type="text" name="Motor" id="Motor"></p>
+                
+                <p><label for="Fecha de publicación">Fecha de publicación</label>
+                <input type="text" name="Fecha de publicación" id="Fecha de publicación">
+
+                <p><label for="Precio">Precio $</label>
+                <input type="number" name="Precio" id="Precio"></p>
+
+                <p><label for="Moneda">Moneda</label>
+                <input type="text" name="Moneda" id="Moneda"></p>
+                
+                <p>Descripción del auto</p>
+                <p><label for="Descripcion1">Descripción 1</label>
+                <input type="text" name="Descripcion1" id="Descripcion1"></p>
+
+                <p><label for="Descripcion2">Descripción 2</label>
+                <input type="text" name="Descripcion2" id="Descripcion2"></p>
+
+                <p><label for="Descripcion3">Descripción 3</label>
+                <input type="text" name="Descripcion3" id="Descripcion3"></p>
+
+                <p><label for="DescripcionDestacada">Descripción destacada</label>
+                <input type="text" name="DescripcionDestacada" id="DescripcionDestacada"></p>
+
+                <p>
+                <input type="submit" value="Enviar"></p>
+        </fieldset>
+    </form>
+</html>
